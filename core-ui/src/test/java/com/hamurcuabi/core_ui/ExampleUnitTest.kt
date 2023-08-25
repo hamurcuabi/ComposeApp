@@ -1,4 +1,4 @@
-package com.hamurcuabi.composeapp
+package com.hamurcuabi.core_ui
 
 import org.junit.Test
 

@@ -29,7 +29,6 @@ android {
         }
     }
     compileOptions {
-        coreLibraryDesugaringEnabled true
 
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -71,4 +70,6 @@ dependencies {
     androidTestImplementation Testing.mockk
     androidTestImplementation Testing.mockWebServer
     androidTestImplementation Testing.hiltTesting
+
+    debugApi Compose.uiToolingPreviewDebug
 }
